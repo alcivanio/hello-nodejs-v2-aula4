@@ -8,7 +8,7 @@ if (!process.argv[2]){
 let id = process.argv[2]
 
 knex("invited").del().where({
-	inveted_id:id
+	invited_id:id
 }).then((ret)=>{
 	console.log(`The user with id ${id} had been deleted`);
 	process.exit(0);
