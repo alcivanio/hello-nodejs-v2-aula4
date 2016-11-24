@@ -1,0 +1,29 @@
+{
+  "name": "intro-knex",
+  "version": "1.0.0",
+  "description": "it is a simple first project just to init my learning in knex and node things",
+  "main": "index.js",
+  "scripts": {
+    "test": "testecommand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcivanio/hello-nodejs-v2-aula4.git"
+  },
+  "keywords": [
+    "first",
+    "project",
+    "knex",
+    "learning"
+  ],
+  "author": "Silva, J.A.A.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alcivanio/hello-nodejs-v2-aula4/issues"
+  },
+  "homepage": "https://github.com/alcivanio/hello-nodejs-v2-aula4#readme",
+  "dependencies": {
+    "knex": "^0.12.6",
+    "sqlite3": "^3.1.8"
+  }
+}
